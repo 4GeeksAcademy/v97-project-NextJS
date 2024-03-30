@@ -1,3 +1,7 @@
+//import "@/styles/globals.css";
+
+import { TrafficLight } from "@/components/TrafficLight";
+
 import { Container, Row, Col} from "react-bootstrap";
 
 export default function About() {
@@ -6,7 +10,8 @@ export default function About() {
         <Container>
           <Row>
             <Col>
-              <h1> Made by Vivi</h1>
+            <h1>Traffic Light</h1>
+             <TrafficLight/>
               
              
   
